@@ -60,7 +60,7 @@ public abstract class BaseActivity extends AppCompatActivity implements HasCompo
     protected void initToolbar() {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        getSupportActionBar().setDisplayShowTitleEnabled(true);
     }
 
     protected void hideStatusBar(){

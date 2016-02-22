@@ -17,7 +17,7 @@
         android:layout_height="0dp"
         android:layout_weight="0.7"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:src="@drawable/ic_launcher"
+        android:src="@drawable/ic_avatar"
         android:layout_gravity="left"
         android:scaleType="fitStart"/>
 
@@ -26,7 +26,7 @@
         android:layout_height="0dp"
         android:layout_weight="0.3"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Image Viewer"
+        android:text="painzhou@hotmail.com"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         />
 
