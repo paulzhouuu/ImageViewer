@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Image Viewer</string>
+    <string name="activity_items_title">Items</string>
+
+    <string name="btn_text_retry">Retry</string>
+
+    //Exception messages
+    <string name="exception_message_generic">There was an application error</string>
+    <string name="exception_message_no_connection">There is no internet connection</string>
+    <string name="menu_vehicles_label">Claims</string>
+    <string name="menu_module_settings_label">Upload</string>
+    <string name="menu_debug_label">Send Debug Log</string>
+    <string name="menu_user_settings_label">Settings</string>
+    <string name="menu_about_label">About</string>
+    <string name="title_activity_room">RoomActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

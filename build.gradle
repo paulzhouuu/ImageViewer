@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.5.0'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
+        classpath "com.fernandocejas.frodo:frodo-plugin:0.8.2"
+    }
+}
+
+allprojects {
+    ext {
+        androidApplicationId = 'com.mconnect.mobile.imageviewer'
+        androidVersionCode = 1
+        androidVersionName = "1.0"
+        testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
+        testApplicationId = 'com.mconnect.mobile.imageviewer.test'
+    }
+}
+
+task wrapper(type: Wrapper) {
+    description 'Creates the gradle wrapper.'
+    gradleVersion '2.10'
+}
+
+
