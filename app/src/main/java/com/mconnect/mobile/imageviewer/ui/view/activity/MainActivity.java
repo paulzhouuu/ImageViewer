@@ -39,8 +39,9 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
 
 
     private RecyclerView.LayoutManager layoutManager;
-    private static RecyclerView recyclerView;
-    private static RecyclerViewAdapter recyclerViewAdapter;
+    @Bind(R.id.my_recycler_view)
+    RecyclerView recyclerView;
+    private RecyclerViewAdapter recyclerViewAdapter;
 
     @Inject
      GetAlbumUseCase getAlbumUseCase;
@@ -58,7 +59,6 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
     }
 
     private void initRecycleView() {
-        recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
         recyclerView.setHasFixedSize(true);
 
         layoutManager = new GridLayoutManager(this, 2, GridLayoutManager.VERTICAL, false);
